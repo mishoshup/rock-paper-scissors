@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java</title>
-    <script src="script.js" defer></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+
+    <div class="game-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <p id="round-tracker">Round 1</p>  <!-- Round Tracker -->
+        
+        <div class="choices">
+            <button class="choice" id="rock">✊ Rock</button>
+            <button class="choice" id="paper">✋ Paper</button>
+            <button class="choice" id="scissors">✌ Scissors</button>
+        </div>
+
+        <div class="result-box">
+            <p id="human-choice">You: <span>-</span></p>
+            <p id="computer-choice">Computer: <span>-</span></p>
+            <h2 id="game-result">Make your move!</h2>
+            <p id="score">Score: You 0 - 0 Computer</p>
+        </div>
+
+        <button id="restart">Restart Game</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
