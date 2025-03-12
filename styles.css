@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 body {
@@ -16,7 +17,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
+
 
 .game-container {
     background: white;
@@ -46,6 +49,7 @@ h1 {
 }
 
 .choice {
+    flex: 1;
     border: none;
     background: white;
     padding: 10px 15px;
