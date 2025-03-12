@@ -19,18 +19,6 @@ This is a simple Rock Paper Scissors game built as part of [The Odin Project](ht
 ### Play the Game
 To play the game, visit: [Rock Paper Scissors](https://mishoshup.github.io/rock-paper-scissors/)
 
-### Installation (Optional)
-If you want to run the game locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/rock-paper-scissors.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd rock-paper-scissors
-   ```
-3. Open `index.html` in your browser.
-
 ## How to Play
 1. Choose Rock, Paper, or Scissors.
 2. The computer will randomly pick one as well.
